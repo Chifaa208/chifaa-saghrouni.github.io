@@ -19,7 +19,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 **Core Skills:** OrcaFlex | OrcaWave | DeepLines | Python | Abaqus
 
 📧 [chifaasagh@gmail.com](mailto:chifaasagh@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni)  
+🔗 [LinkedIn]([https://www.linkedin.com/in/chifaa-saghrouni](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/))  
 📄 [Download my CV](./CV_Chifaa_SAGHROUNI.pdf)
 
 ---
@@ -46,7 +46,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 ![Fatigue Results](./images/fatigue_damage_relative.png)
 ![Time Histories](./images/time_histories.png)
 
-📌 [Read the full LinkedIn post](https://www.linkedin.com/in/chifaa-saghrouni)
+📌 [Read the full LinkedIn post](https://lnkd.in/p/eMndyx_a)
 
 ---
 
@@ -75,7 +75,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 ![Wave Rose](./images/wave_rose.png)
 ![Operability](./images/operability.png)
 
-📌 [Read the full LinkedIn post](https://www.linkedin.com/in/chifaa-saghrouni)
+📌 [Read the full LinkedIn post](https://lnkd.in/p/eDVNSsvs)
 
 ---
 
@@ -135,7 +135,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 ## Contact
 
 📧 **Email:** [chifaasagh@gmail.com](mailto:chifaasagh@gmail.com)  
-🔗 **LinkedIn:** [Chifaa Saghrouni](https://www.linkedin.com/in/chifaa-saghrouni)  
+🔗 **LinkedIn:** [Chifaa Saghrouni]([https://www.linkedin.com/in/chifaa-saghrouni](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/))  
 📍 **Location:** Marseille, France  
 ✅ **Status:** Available immediately
 
