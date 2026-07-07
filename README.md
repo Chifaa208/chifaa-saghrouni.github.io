@@ -12,11 +12,11 @@
 
 ### About Me
 
-Maritime engineer graduated from **École Centrale Méditerranée** (Naval & Ocean Engineering) and **ENIM** (Mechanical Engineering), specialised in **hydrodynamics**, **mooring analysis** and **numerical modelling** for offshore floating structures.
+Maritime engineer graduated from **École Centrale Méditerranée** (Naval & Maritime Engineering) and **ENIM** (Mechanical Engineering), specialised in **hydrodynamics**, **mooring analysis** and **numerical modelling** for offshore floating structures.
 
 Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of mooring systems, and wave climate data processing at **DORIS Group / Océanide** (France Énergie Marine R&D project).
 
-**Core Skills:** OrcaFlex | OrcaWave | DeepLines | Python | Abaqus
+**Core Skills:** OrcaFlex | OrcaWave | Python | Abaqus
 
 📧 [chifaasagh@gmail.com](mailto:chifaasagh@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/)  
@@ -30,7 +30,6 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 
 **Parametric study of mooring line fatigue for a semi-submersible floating wind turbine**
 
-- Modelled a complete 15 MW FOWT system (IEA reference, UMaine VolturnUS-S) in **OrcaFlex**
 - Ran 7 parametric load cases varying Hs, Tp and wave direction
 - Applied **Rainflow counting** (ASTM E1049) + **Miner's rule** (DNV S-N curves) via Python
 - **Key result:** Wave height (Hs) is the dominant parameter → +23% fatigue damage when Hs increases from 4m to 6m
@@ -103,8 +102,8 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 
 | Degree | School | Year |
 |--------|--------|------|
-| MSc Naval & Ocean Engineering | École Centrale Méditerranée | 2023-2025 |
-| BSc/MSc Mechanical Engineering | ENIM, Tunisia | 2021-2023 |
+| MSc Naval & Maritime Engineering | École Centrale Méditerranée | 2023-2025 |
+| MSc Mechanical Engineering | ENIM, Tunisia | 2021-2023 |
 | Preparatory Cycle (Physics) | IPEI Bizerte, Tunisia | 2019-2021 |
 
 ---
@@ -127,7 +126,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 | Language | Level |
 |----------|-------|
 | Arabic | Native |
-| French | C1 (Fluent) |
+| French | Bilingual |
 | English | B2 (Professional) |
 
 ---
