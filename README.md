@@ -20,7 +20,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 
 📧 [chifaasagh@gmail.com](mailto:chifaasagh@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/)  
-📄 [Download my CV](./CV_Chifaa_SAGHROUNI.pdf)
+📄 [Download my CV](./CV_Chifaa_SAGHROUNI_.pdf)
 
 ---
 
