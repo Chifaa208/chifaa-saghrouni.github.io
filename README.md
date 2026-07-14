@@ -108,7 +108,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 ![Platform Motions](./images/openfast_platform_motions.png)
 ![Mooring Tensions](./images/openfast_mooring_tensions.png)
 
-📌 [Watch the animation on LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/)
+📌 [Watch the animation on LinkedIn](https://lnkd.in/p/eggVNP2e)
 
 ---
 
