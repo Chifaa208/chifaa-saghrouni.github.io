@@ -121,7 +121,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 - Compared 6 calculation methods (frequency/time domain, coupled/uncoupled, with/without 2nd order effects)
 - Defined load cases and operability criteria for maintenance operations
 - Implemented dynamic positioning system via Python scripting
-- **Tools:** OrcaFlex, OrcaWave, DeepLines, Python
+- **Tools:** OrcaFlex, OrcaWave, Python
 
 ### LMA (CNRS), Marseille — Internship
 **June 2024 – July 2024**
