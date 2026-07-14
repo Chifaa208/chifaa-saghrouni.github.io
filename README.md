@@ -16,7 +16,7 @@ Maritime engineer graduated from **École Centrale Méditerranée** (Naval & Mar
 
 Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of mooring systems, and wave climate data processing at **DORIS Group / Océanide** (France Énergie Marine R&D project).
 
-**Core Skills:** OrcaFlex | OrcaWave | Python | Abaqus
+**Core Skills:** OrcaFlex | OrcaWave | OpenFAST | Python | Abaqus
 
 📧 [chifaasagh@gmail.com](mailto:chifaasagh@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/)  
@@ -78,6 +78,40 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 
 ---
 
+### 🌊 Project 3 — 3D Animation of FOWT Dynamic Response (OpenFAST)
+
+**Real-time visualisation of a semi-submersible platform under wave loading using OpenFAST simulation data**
+
+- Performed a **1-hour coupled simulation** (3600s, 36,000 time steps) of the OC4 DeepCwind semi-submersible 5MW using **OpenFAST v3.5.5**
+- Modules: **HydroDyn** (hydrodynamic loads + QTFs) + **MoorDyn** (3 catenary mooring lines) + **ElastoDyn** (structural dynamics) + **AeroDyn** (aerodynamic loads)
+- Created a **3D animation** showing real-time platform motions under irregular waves (JONSWAP, Hs=4m, Tp=12s)
+- Visualised: wave surface, semi-submersible platform, mooring lines, rotating turbine blades, with camera rotation
+
+**Platform Response (OpenFAST results):**
+
+| DOF | Min | Max | Description |
+|-----|-----|-----|-------------|
+| Surge | 4.3 m | 13.7 m | Mean drift under wind loading |
+| Heave | -1.5 m | +1.5 m | Excellent vertical stability |
+| Pitch | 0.3 deg | 4.0 deg | Moderate rotational response |
+
+**Mooring Line Tensions:**
+
+| Line | T_min (kN) | T_max (kN) | T_mean (kN) |
+|------|-----------|-----------|-------------|
+| Line 1 | 826 | 1,113 | 987 |
+| Line 2 (critical) | 957 | 2,574 | 1,626 |
+| Line 3 | 775 | 1,054 | 894 |
+
+**Tools:** OpenFAST v3.5.5, Python (matplotlib 3D animation), MoorDyn, HydroDyn
+
+![Platform Motions](./images/openfast_platform_motions.png)
+![Mooring Tensions](./images/openfast_mooring_tensions.png)
+
+📌 [Watch the animation on LinkedIn](https://www.linkedin.com/in/chifaa-saghrouni-82967b236/)
+
+---
+
 ## Professional Experience
 
 ### DORIS Group / Océanide, Toulon — End-of-studies Internship
@@ -87,7 +121,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 - Compared 6 calculation methods (frequency/time domain, coupled/uncoupled, with/without 2nd order effects)
 - Defined load cases and operability criteria for maintenance operations
 - Implemented dynamic positioning system via Python scripting
-- **Tools:** OrcaFlex, OrcaWave, Python
+- **Tools:** OrcaFlex, OrcaWave, DeepLines, Python
 
 ### LMA (CNRS), Marseille — Internship
 **June 2024 – July 2024**
@@ -95,6 +129,18 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 - Finite element modelling of complex structures (Specfem2D, Gmsh)
 - Numerical data processing and analysis
 - **Tools:** Specfem2D, Gmsh, Python
+
+---
+
+## Professional Development
+**October 2025 – Present** | Active job search & continuous skills development
+
+- Self-taught **OpenFAST** (NREL): coupled dynamic simulation of a 5MW semi-submersible FOWT (OC4 DeepCwind) with HydroDyn + MoorDyn
+- Performed **complete mooring fatigue analysis** using Rainflow counting + Miner's rule (DNV S-N curves)
+- Processed **real wave data** (ERA5/Copernicus) for offshore climate analysis
+- Created **3D animations** of platform dynamic response using Python
+- Regular **technical publications** on LinkedIn with international engagement
+- Built this **technical portfolio** on GitHub Pages
 
 ---
 
@@ -113,9 +159,9 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 | Domain | Skills |
 |--------|--------|
 | **Hydrodynamics** | Diffraction/radiation, RAOs, QTFs, mooring dynamics, fatigue, operability |
-| **Offshore Software** | OrcaFlex, OrcaWave, DeepLines |
+| **Offshore Software** | OrcaFlex, OrcaWave, DeepLines, **OpenFAST** |
 | **FEA/CAD** | Abaqus, SolidWorks, Specfem2D, Gmsh |
-| **Programming** | Python (rainflow, pandas, matplotlib, numpy, netCDF4) |
+| **Programming** | Python (rainflow, pandas, matplotlib, numpy, netCDF4, 3D animation) |
 | **Data** | Wave climate analysis, ERA5/Copernicus, scatter diagrams |
 | **Standards** | DNV-OS-E301, DNV-RP-C203, DNVGL-ST-N001, ASTM E1049 |
 
