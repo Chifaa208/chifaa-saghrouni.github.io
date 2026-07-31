@@ -112,6 +112,46 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 
 ---
 
+### 🖥️ Project 4 — Offshore Monitoring Dashboard: Sea State Comparison (OpenFAST)
+
+**Real-time animated dashboard comparing FOWT response under 3 sea states using OpenFAST simulation data**
+
+- Ran **3 coupled simulations** (3 × 1 hour) of the OC4 DeepCwind semi-submersible 5MW under varying wave conditions:
+  - 🔵 **Calm:** Hs = 2m, Tp = 8s
+  - 🟡 **Moderate:** Hs = 4m, Tp = 12s
+  - 🔴 **Severe:** Hs = 6m, Tp = 14s
+- Created a **monitoring-style animated dashboard** featuring:
+  - Real-time time histories (surge, heave, pitch) with 3 overlaid curves
+  - Animated mooring tension bars with **MBL limit line** (3038 kN)
+  - Circular **T/MBL gauge** turning green → yellow → red
+  - Live instantaneous values counter
+
+**Sea State Comparison Results:**
+
+| Parameter | Calm (Hs=2m) | Moderate (Hs=4m) | Severe (Hs=6m) |
+|-----------|-------------|-----------------|----------------|
+| Surge range | 5.7 m | 9.4 m | 17.0 m |
+| Heave range | 2.0 m | 3.0 m | 4.3 m |
+| Pitch range | 1.9 deg | 3.7 deg | 6.5 deg |
+| T_max Line 2 | 1,833 kN | 2,574 kN | 4,123 kN |
+| T/MBL | 60% | 85% | **136%** ⚠️ |
+
+**Critical Finding:** In severe seas (Hs=6m), the mooring tension on the windward line reaches **136% of the chain's MBL** — indicating potential mooring failure under extreme conditions.
+
+**Key Observations:**
+- Surge range **triples** from calm to severe (5.7m → 17.0m)
+- Mooring tension more than **doubles** (1,833 → 4,123 kN)
+- The semi-submersible maintains good **heave stability** even in severe conditions (range only doubles)
+- Mooring system is the **critical component** under extreme loading
+
+**Tools:** OpenFAST v3.5.5, Python (matplotlib animation), MoorDyn, HydroDyn
+
+![Dashboard Screenshot](./images/dashboard_seastate.png)
+
+📌 [Watch the dashboard animation on LinkedIn](https://lnkd.in/p/euUZKGbR)
+
+---
+
 ## Professional Experience
 
 ### DORIS Group / Océanide, Toulon — End-of-studies Internship
@@ -121,7 +161,7 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 - Compared 6 calculation methods (frequency/time domain, coupled/uncoupled, with/without 2nd order effects)
 - Defined load cases and operability criteria for maintenance operations
 - Implemented dynamic positioning system via Python scripting
-- **Tools:** OrcaFlex, OrcaWave, Python
+- **Tools:** OrcaFlex, OrcaWave, DeepLines, Python
 
 ### LMA (CNRS), Marseille — Internship
 **June 2024 – July 2024**
@@ -136,9 +176,10 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 **October 2025 – Present** | Active job search & continuous skills development
 
 - Self-taught **OpenFAST** (NREL): coupled dynamic simulation of a 5MW semi-submersible FOWT (OC4 DeepCwind) with HydroDyn + MoorDyn
+- Performed **parametric sea state study** (3 simulations: Hs = 2, 4, 6m) with mooring integrity assessment
 - Performed **complete mooring fatigue analysis** using Rainflow counting + Miner's rule (DNV S-N curves)
 - Processed **real wave data** (ERA5/Copernicus) for offshore climate analysis
-- Created **3D animations** of platform dynamic response using Python
+- Created **3D animations** and **monitoring dashboards** of platform dynamic response using Python
 - Regular **technical publications** on LinkedIn with international engagement
 - Built this **technical portfolio** on GitHub Pages
 
@@ -161,8 +202,8 @@ Hands-on experience in coupled hydrodynamic analysis, fatigue assessment of moor
 | **Hydrodynamics** | Diffraction/radiation, RAOs, QTFs, mooring dynamics, fatigue, operability |
 | **Offshore Software** | OrcaFlex, OrcaWave, DeepLines, **OpenFAST** |
 | **FEA/CAD** | Abaqus, SolidWorks, Specfem2D, Gmsh |
-| **Programming** | Python (rainflow, pandas, matplotlib, numpy, netCDF4, 3D animation) |
-| **Data** | Wave climate analysis, ERA5/Copernicus, scatter diagrams |
+| **Programming** | Python (rainflow, pandas, matplotlib, numpy, netCDF4, 3D animation, dashboard) |
+| **Data** | Wave climate analysis, ERA5/Copernicus, scatter diagrams, parametric studies |
 | **Standards** | DNV-OS-E301, DNV-RP-C203, DNVGL-ST-N001, ASTM E1049 |
 
 ---
